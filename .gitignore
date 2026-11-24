@@ -1,0 +1,32 @@
+# Artefatos de compilação do Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo.lock (mantenha ignorado APENAS se for uma biblioteca/crate;
+# se for um executável/binário, remova ou comente a linha abaixo)
+# Cargo.lock
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Arquivos de cobertura de testes e profiling
+*.profraw
+*.profdata
+tarpaulin-report.html
+cobertura.xml
+lcov.info
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
